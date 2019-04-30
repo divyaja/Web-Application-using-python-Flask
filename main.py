@@ -15,7 +15,7 @@ def login():
         return redirect(url_for('success',name=username))
 
 @app.route("/Divya")
-def home():
+def hello():
  return "Hello Divya!"
 
 @app.route('/')
