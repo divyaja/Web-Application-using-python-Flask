@@ -22,7 +22,7 @@ def hello():
 def home():
  return render_template('Home.html')
 
-@ap.route('/about')
+@app.route('/about')
 def about():
     return render_template('about.html')
 
