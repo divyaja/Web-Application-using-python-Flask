@@ -1,5 +1,8 @@
 <html>
-   <body><center>
+   <body>
+      {% extends "template.html" %}
+    {% block content %}
+      <center>
       <form action = "http://localhost:5000/login" method = "get">
       <fieldset><legend>Sign In: </legend>
          <p>User Name:</p>
@@ -8,5 +11,6 @@
          <p><input type = "submit" value = "submit" /></p>
          </fieldset>
       </form></center>
+      {% endblock %}
    </body>
 </html>
